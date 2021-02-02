@@ -6,6 +6,11 @@ The first dataset is the amount of corona RNA particles in sewage water on diffe
 The second dataset is the total amount of corona cases in each province of the Netherlands.
 The sewage dataset has a timeline from 3/30/2020 to 1/27/2021. This timeline is shorter than that of the total amount dataset. Because of this the data will be filtered on this timeline to give a more representative result.
 
+What should be taken into acount is that the amount of measured locations of sewage water has gone way up over time.
+A way to correct this is by only looking at the location that have been measured throughout, however this does lower the quality of te data.
+
+#### Another aspect that has to be taken into acount is the way of measuring. Firstly the RNA is counted per ml, later on it is measured as RNA flow per 10.000.
+
 ## data source both data files
 sewage data in json format and number of municipalities cumulative in json format.
 both can be found on:
