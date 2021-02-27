@@ -19,6 +19,4 @@ Packages:
 - scipy
 - geopandas
 
-
-
-
+Everything was coded in python using Jupyter Notebook
